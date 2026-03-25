@@ -26,7 +26,7 @@ programa
 									escreva("seus valores são todos iguais")
 								}
 									senao{
-										escreva("chega tabao para de tentar fi")	
+										
 									}
 							}
 						
