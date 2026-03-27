@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		inteiro  horas , pecas , producao
+		 escreva("digite a quantidade de horas trabalhadas")
+	   
+	    leia(horas)
+	    
+	     escreva ("digite a quantidades de pecas produzidas por hora")
+	     leia(pecas)
+	
+	 producao=horas*pecas
+	  escreva("/nquantidade de pecas produzidas e", producao)
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+
+	
+}
