@@ -1,0 +1,29 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	 inteiro   numero =1 , valor
+	 
+	  faca
+	      {
+	escreva("=",   + numero)
+	numero= numero+1
+	} 
+	  enquanto 
+	  (numero<=1000) 
+        valor = numero +1
+     
+	   se
+	
+	(numero>1000)
+	
+	{ 
+	 escreva("/ncodigo excedido")
+	 	
+	     }
+	  
+	 
+
+}
+}
