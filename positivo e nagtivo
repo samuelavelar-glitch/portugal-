@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+		
+	real numero , positivo , n 	
+		
+	escreva("digite um numero")
+	leia(numero)
+	se   ( numero < 0 ) {
+
+      escreva("por favor digite um numero positivo")
+
+	}
+	 senao{
+           escreva("ok tudo bem")
+	 	 
+	 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	}
+}
