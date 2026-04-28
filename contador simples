@@ -3,11 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro x
-		x = 0
-		enquanto (x<100){
-			escreva(" ",x)
-			x++
+ inteiro x
+	x = 0
+	enquanto (x<100){
+     escreva(" ",x)
+			     x++
 		}
 	}
 }
