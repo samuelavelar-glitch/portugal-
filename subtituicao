@@ -1,0 +1,22 @@
+programa
+{
+	
+inclua biblioteca Texto --> t 
+	funcao inicio()
+	{
+     inteiro posicao=0 
+      cadeia texto = "pitaya" 
+
+      escreva(texto)
+
+      texto= t.substituir( texto, "pitaya" ,"jaca")
+      escreva("\n", texto)
+         
+  
+
+
+
+	
+      
+		
+	}
