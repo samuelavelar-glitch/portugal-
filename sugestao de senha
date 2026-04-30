@@ -1,0 +1,28 @@
+programa {
+  inclua biblioteca ultil --> t
+  funcao inicio() {
+    cadeia texto  , nome , cidade , data_nasc
+    inteiro  i 
+     
+      escreva("\n  digite seu nome")
+           leia(nome)
+
+    nome= nome + t.extrair_subtexto(cadeia cad, inteiro nome, inteiro , nome) 
+                 
+     escreva("\n digite sua data de nascimento ")
+          leia(data_nasc)
+
+    data_nasc= data_nasc + t.extrair_subtexto(cadeia cad, inteiro "data_nasc" 0,7 inteiro "data_nasc" 0,2   ) 
+ escreva(0,2)
+     escreva("digite sua cidade")
+          leia(cidade_natal)
+
+    cidade_natal= cidade_natal + t.extrair_subtexto(cadeia cad, inteiro "cidade" 0 ,2  cidade) 
+
+
+
+
+
+
+
+
