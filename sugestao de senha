@@ -21,8 +21,8 @@ programa {
     
     cidade_curta = cidade + t.extrair_subtexto(cidade, 0, 2)
     escreva("\nInício da cidade: ", cidade_curta)
-      senha= nome_curto+ano+cidade_curta
-    
-    escreva("sua senha é" ,senha)
+   
+    senha= nome_curto+ano+cidade_curta
+    escreva("\nsua senha é" ,senha)
   }
 }
