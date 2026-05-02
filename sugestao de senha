@@ -2,7 +2,7 @@ programa {
   inclua biblioteca Texto --> t
 
   funcao inicio() {
-    cadeia nome, cidade, data_nasc , cidade_curta, nome_curto , ano ,senha
+    cadeia nome, cidade, data_nasc , cidade_curta, nome_curto , ano , senha
 
     escreva("\nDigite seu nome: ")
     leia(nome)
