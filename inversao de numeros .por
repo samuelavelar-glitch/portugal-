@@ -8,7 +8,7 @@ para (i=0; i<10; i++) {
 escreva("\n", numeros[1])
 leia(numeros[i])
 }
-para  (i=9 ; i>10 ; i--){
+para  (i=9 ; i>0 ; i--){
 escreva("\n:\n",numeros[1])
 leia(numeros[i])
   }
