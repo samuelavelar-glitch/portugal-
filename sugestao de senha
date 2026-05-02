@@ -1,28 +1,28 @@
 programa {
-  inclua biblioteca ultil --> t
+  inclua biblioteca Texto --> t
+
   funcao inicio() {
-    cadeia texto  , nome , cidade , data_nasc
-    inteiro  i 
-     
-      escreva("\n  digite seu nome")
-           leia(nome)
+    cadeia nome, cidade, data_nasc , cidade_curta, nome_curto , ano ,senha
 
-    nome= nome + t.extrair_subtexto(cadeia cad, inteiro nome, inteiro , nome) 
-                 
-     escreva("\n digite sua data de nascimento ")
-          leia(data_nasc)
+    escreva("\nDigite seu nome: ")
+    leia(nome)
 
-    data_nasc= data_nasc + t.extrair_subtexto(cadeia cad, inteiro "data_nasc" 0,7 inteiro "data_nasc" 0,2   ) 
- escreva(0,2)
-     escreva("digite sua cidade")
-          leia(cidade_natal)
+     nome_curto = t.extrair_subtexto(nome, 0, 3)
+    escreva("\nPrimeiras letras do nome: ", nome_curto)
 
-    cidade_natal= cidade_natal + t.extrair_subtexto(cadeia cad, inteiro "cidade" 0 ,2  cidade) 
+    escreva("\nDigite sua data de nascimento: ")
+    leia(data_nasc)
 
+    ano = data_nasc + t.extrair_subtexto(data_nasc, 6, 10)
+    escreva("\nAno de nascimento: ", ano)
 
-
-
-
-
-
-
+    escreva("\nDigite sua cidade: ")
+    leia(cidade)
+    
+    cidade_curta = cidade + t.extrair_subtexto(cidade, 0, 2)
+    escreva("\nInício da cidade: ", cidade_curta)
+      senha= nome_curto+ano+cidade_curta
+    
+    escreva("sua senha é" ,senha)
+  }
+}
