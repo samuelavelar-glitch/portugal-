@@ -5,9 +5,9 @@ programa
 	{
  inteiro x
 	x = 0
-	enquanto (x<100){
-     escreva(" ",x)
-			     x++
+enquanto (x<100){
+escreva(" ",x)
+	     x++
 		}
 	}
 }
