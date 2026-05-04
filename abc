@@ -9,25 +9,22 @@ menor que B deverá subtrair o valor B de A. Se B for
 menor que A deverá multiplicar os dois valores. Ao final
 imprima qual cálculo foi realizado e o resultado.
 */
-		inteiro a, b, c
+      inteiro a, b, c
 		escreva ("digite um valor ")
 		leia (a)
 		escreva ("digite outro valor ")
 		leia (b)
 		se (a == b){
-			c = a + b
-			escreva ("foi somado os dois valores e o resultado é ",c)
-		}
-			senao {
-				se (a < b){
-					c = b - a
-					escreva ("foi subtraido o segundo valor do primeiro e o resultado é ", c)
+		c = a + b
+		escreva ("foi somado os dois valores e o resultado é ",c)
+		}senao {
+		se (a < b){
+		c = b - a
+		escreva ("foi subtraido o segundo valor do primeiro e o resultado é ", c)
+		}senao{
+		se (b < a){
+         c = a*b}
 				}
-					senao{
-						se (b < a){
-							c = a*b
-						}
-					}
-			}
-	}
-}
+			    }
+	            }
+                }
