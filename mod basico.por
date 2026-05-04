@@ -8,28 +8,18 @@ inteiro numeros[10], i=0 , contador=0 , pares
   para (i=0 ; i<10 ; contador++ )
   {
    
- escreva("\ndigite o numero ")
+escreva("\ndigite o numero ")
 leia(numeros[i])
 numeros[i]=numeros[i]%2
- contador= contador+1
+contador= contador+1
  
-  }
-  escreva("\nvocê digitou ", contador, "números pares  e são:\n")
+}
+escreva("\nvocê digitou ", contador, "números pares  e são:\n")
 para(i=0; i<10; i++){
 se(numeros[i]==0){	
 escreva(numeros[i], "\nnumeros")
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  }
-
 }
-  }
+}
+}
 }
