@@ -4,44 +4,16 @@ programa
 	funcao inicio()
 	{
  inteiro numero 
-
-            escreva(" digite um numero ")
-	                leia(numero)
-
-	
+    
+      escreva(" digite um numero ")
+	    leia(numero)
 	enquanto ( numero < 5)   {
-		 
- 
-       numero = numero + 1
- 	 
-        }
-	
-	se
-
-      ( numero > 5) {
-             
-           escreva( "\n limite excedido")
-                
-	
-             
-	}senao{ 
-		
-		 escreva(" /n numero e " , numero)
-		
-		
-		
-		
-		
-		}
-		
- 
-		 
-	}
-
-
-
-
-
-
-	
-}
+		   numero = numero + 1  
+		   }
+		se ( numero > 5) {
+               escreva( "\n limite excedido")
+       }senao{ 
+	          escreva(" /n numero e " , numero)
+	          }
+	          }
+	          }
