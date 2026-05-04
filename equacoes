@@ -9,7 +9,6 @@ inteiro  a , b , soma , multi , subtracao
 	
 escreva("digite o valor de a:")
 leia(a)
-
 escreva(" digite o valor de b:")
 leia(b) 
 se(a<b){
