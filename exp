@@ -4,20 +4,15 @@ programa
 	funcao inicio()
 	{
  
-          inteiro  experiencia
-		escreva("digite seus anos de experiencia  ")
+     inteiro  experiencia
+	 escreva("digite seus anos de experiencia  ")
 	  
-	    leia( experiencia)
-       se    
-        
-	    (experiencia>=3){
-	    	 escreva("esntrevista tecnica" )
+	   leia( experiencia)
+       se  (experiencia>=3){
+	     escreva("esntrevista tecnica" )
 	     }
-	    	 senao
-	    	 {
-	    		
-	       escreva(" banco de talentos")}
-      
-        }
-	
-      }
+	    senao
+		 {
+	      escreva(" banco de talentos")      
+         }
+	     }
