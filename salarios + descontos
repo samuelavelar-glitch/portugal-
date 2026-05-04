@@ -2,17 +2,16 @@ programa
 {
 	real salario
 	funcao inicio()
-	{
+	   {
 		escreva("Digite seu salário: ")
 		leia(salario)
-
 		se (salario > 2000) {
 			salario = (salario - salario * 0.4)
 			escreva("Seu salário teve um acréscimo de 25%\nEntão seu novo salário é de ", salario, " R$")
-		}
-		senao se (salario <= 2000) {
+		   }
+	    	senao se (salario <= 2000) {
 			salario = (salario - salario * 0.05)
 			escreva("Seu salário teve um desconto de 5%\nEntão seu novo salário é de ", salario, " R$")
 			}
-	}
-}
+	       }
+          }
