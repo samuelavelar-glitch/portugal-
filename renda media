@@ -1,26 +1,23 @@
-programa 
-{
+  programa 
+   {
 	
 	
-    funcao inicio()
-    {
+       funcao inicio()
+       {
         inteiro numero, i
-        real salario, soma = 0, renda
-
+        real salario, soma = 0, renda   
+     
         escreva("Digite o número de pessoas: ")
         leia(numero)
-
         para (i = 1; i <= numero; i++)
-        {
-            escreva("Digite o salário da pessoa ", i, ": ")
-            leia(salario)
-            soma = soma + salario
+        {   
+       escreva("Digite o salário da pessoa ", i, ": ")
+       leia(salario)
+       soma = soma + salario
         }
-
-        renda = soma / numero
-
-        escreva("A renda média é: ", renda)
-    }
-}
+       renda = soma / numero
+       escreva("A renda média é: ", renda)
+       }
+       }
 
 
