@@ -6,38 +6,17 @@ programa
 inteiro   codigo_funcionario , idade , indentidade
 caracter tipo_sanguineo		
 		
-		escreva("digite codigo do funcionario" )
-	        leia(codigo_funcionario)
-	      
-	         escreva(" digite a idade")
-          	leia(idade)
-	
-               escreva (" digite indentidade")
-                  leia(indentidade)
-     
-         escreva("digite o tipo sanguineo")
-	     
-	      leia(tipo_sanguineo)
-	
+	escreva("digite codigo do funcionario" )
+   leia(codigo_funcionario) 
+ escreva(" digite a idade")
+ 	leia(idade)
+   escreva (" digite indentidade")
+    leia(indentidade)
+    escreva("digite o tipo sanguineo")	     
+    leia(tipo_sanguineo)
 	 escreva (" carteira de indentificacao de funcionario  \n codigo:", codigo_funcionario)
-
 	escreva ("\nidade: " , idade)
-
 	escreva("\n1tipo s:",tipo_sanguineo)
-	
 	escreva("\nid", indentidade)
-	
-	
 	}
-
-
-
-
-
-
-
-
-
-
-	
-}
+    }
