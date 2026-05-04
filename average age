@@ -9,35 +9,20 @@ programa
 
     inteiro   idade , numero  , contador=0 , soma=0
    real media
-                 escreva( " digite o numero de pessoas ")
-                     leia(numero)
-            escreva("digite a idade")
-      leia(idade)                                     
-
-            enquanto ( idade > 0) {
-
-                  soma = soma+idade
-                 contador = contador +1
-    
-           
-           escreva("digite a idade para continuar")               
-                  leia(idade)            
-                                  }
-            se  
-            (contador >= 0) {
-	
-            media = soma / contador
-	  
+escreva( " digite o numero de pessoas ")
+        leia(numero)
+escreva("digite a idade")
+          leia(idade)                                     
+ enquanto ( idade > 0) {
+    soma = soma+idade
+   contador = contador +1
+  escreva("digite a idade para continuar")               
+         leia(idade)            
+     se  (contador >= 0) {
+         media = soma / contador
 	   escreva("idade media e ", media)
-	  
-	                       }senao{
-
-
-           escreva("idade invalida") 
-
-
-   }
-
-	}
-
-}
+	     }senao{
+         escreva("idade invalida") 
+         }
+	     }
+         }
