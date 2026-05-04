@@ -6,35 +6,20 @@ programa
 inteiro i , soma
 real lado 
 
-
-  escreva("\n digite o primeiro lado triangulo:")
-         leia(lado)
-
+escreva("\n digite o primeiro lado triangulo:")
+leia(lado)
 escreva("\n digite o segundo lado:")
-        leia(lado)
-
+leia(lado)
 escreva("\n digite o terceiro lado ") 
+ leia(lado)
+ soma=lado+lado+lado
 
-  leia(lado)
-soma=lado+lado+lado
+se(soma<180) {
+ escreva("\n nao e um triangulo:")
 
-
-se   (soma<180) {
-
-escreva("\n nao e um triangulo:")
-
+ }senao{
+ escreva("\n sim, e um triangulo:")
 	
-}senao{
-escreva("\n sim, e um triangulo:")
-	
-}
-
-
-
-
-
-
-
-	
+    }
 	}
-}
+    }  
