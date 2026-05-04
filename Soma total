@@ -3,25 +3,19 @@ programa
 
 funcao inicio()
 	{
-	inteiro numero ,i 
-	 
-  real salario ,soma = 0 
-  escreva("digite o numero de pessoas ")
-   leia ( numero )
-    para ( i=1 ;i <= numero; i++)         
-     {
+inteiro numero ,i 
+real salario ,soma = 0 
+
+escreva("digite o numero de pessoas ")
+ leia ( numero )
+ para ( i=1 ;i <= numero; i++)         
+ {
 escreva("digite o salario da pessoa", i ,";")
  leia(salario)
   soma=soma+salario        
   escreva("soma total e " , soma)  
-              
-              
-     }	
-
-        
-          
-
- 	}
-}
+   }	
+   }
+   }
 
 
