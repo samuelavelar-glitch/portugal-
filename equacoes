@@ -5,32 +5,23 @@ programa
 	{
 
 	
-	inteiro  a , b , soma , multi , subtracao
+inteiro  a , b , soma , multi , subtracao
 	
-	 escreva("digite o valor de a:")
-	 leia(a)
+escreva("digite o valor de a:")
+leia(a)
 
-	 escreva(" digite o valor de b:")
-	 leia(b)
-	 
-	     se(a<b){
-	        subtracao=b-a
-	      
-	         escreva ("subtracao e:", subtracao)          
-	      }
-	       senao
-                 {  se(a>b){
-                 	
-                 multi=a*b
-                  
-                  escreva("multi e:",multi)
-                 }
-	
-	           senao se (a==b){
-	           	       soma=a+b 
-	           	 escreva("soma e: ", soma)}   
-	         	
-	         
-	         
-                 }
+escreva(" digite o valor de b:")
+leia(b) 
+se(a<b){
+subtracao=b-a  
+escreva ("subtracao e:", subtracao)          
+}   senao   {
+   se(a>b){
+  multi=a*b
+ escreva("multi e:",multi)
+      }
+senao se (a==b){
+soma=a+b 
+ escreva("soma e: ", soma)}   
+           }
 	
