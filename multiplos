@@ -6,15 +6,11 @@ programa
 	
 	real dobro,triplo ,numero
 	
-		escreva("digite um numero:")
-	      leia(numero)
-	      
-	      
-	      dobro=numero*2
-	      triplo=numero*3
-	      
-	      
-	      escreva("numero e dobro: " , dobro )
-	      
-           escreva("numero e triplo: " , triplo)
-
+	escreva("digite um numero:")
+     leia(numero)   
+   dobro=numero*2
+   triplo=numero*3     
+	escreva("numero e dobro: " , dobro )
+   escreva("numero e triplo: " , triplo)
+           }
+           }  
