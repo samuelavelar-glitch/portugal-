@@ -11,3 +11,4 @@ inclua biblioteca Texto --> t
       texto= t.substituir( texto, "pitaya" ,"jaca")
       escreva("\n", texto)
     	}
+        }
