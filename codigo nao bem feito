@@ -13,11 +13,8 @@ programa
 	  enquanto 
 	  (numero<=1000) 
         valor = numero +1
-     
 	   se
-	
-	(numero>1000)
-	
+	(numero>1000)	
 	{ 
 	 escreva("/ncodigo excedido")
 	 	
