@@ -3,17 +3,17 @@ programa
 	
 	funcao inicio()
 	{
- inteiro numero 
+    inteiro numero 
     
-      escreva(" digite um numero ")
+      escreva(" \ndigite um numero : ")
 	    leia(numero)
-	enquanto ( numero < 5)   {
+	      enquanto ( numero < 5)   {
 		   numero = numero + 1  
-		   }
-		se ( numero > 5) {
+		     }
+		     se ( numero > 5) {
                escreva( "\n limite excedido")
-       }senao{ 
-	          escreva(" /n numero e " , numero)
+                }senao{ 
+	           escreva(" /n numero e " , numero)
 	          }
 	          }
 	          }
