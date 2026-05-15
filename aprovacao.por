@@ -14,7 +14,7 @@ escreva("reprovado")
  }senao se ( media < 7){
  escreva("recuperacao")                               	
  }senao{                      
-escreva("aprovado")
+escreva("aprovados")
       }
      } 
    }
