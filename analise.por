@@ -19,9 +19,10 @@ programa
   
      
       
-       }
-     }
-	funcao inicio(){
+  }
+    }
+
+      funcao inicio(){
         real numero ,resultado
         cadeia analise
      /*. Crie uma função que receba um número real e verifique se ele é um número positivo,
