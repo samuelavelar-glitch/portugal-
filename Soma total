@@ -6,7 +6,7 @@ funcao inicio()
 inteiro numero ,i 
 real salario ,soma = 0 
 
-escreva("digite o numero de pessoas ")
+escreva("digite os numeros de pessoas ")
  leia ( numero )
  para ( i=1 ;i <= numero; i++)         
  {
