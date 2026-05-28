@@ -13,7 +13,7 @@ escreva("digite os numeros de pessoas ")
 escreva("digite o salario da pessoa", i ,";")
  leia(salario)
   soma=soma+salario        
-  escreva("soma totals e " , soma)  
+  escreva("\nsoma totalizando em " , soma)  
    }	
    }
    }
