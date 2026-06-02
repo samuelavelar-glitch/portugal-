@@ -8,9 +8,9 @@ programa
 		escreva ("digite a sua idade ")
 		leia (idade)
 		se (idade >=18){
-			escreva ("maiores de idade")
+		escreva ("maiores de idade")
 		}senao{
-			escreva ("menor de idade")
+		escreva ("menor de idade")
 		}
 	}
 }
