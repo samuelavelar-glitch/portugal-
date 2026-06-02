@@ -8,7 +8,7 @@ escreva("\n número é" , número)
 
 
 se(número < 0 ou ==15){
-escreva("\nnúmero inválido")
+escreva("\nnúmero inválido digite novamente")
 }
 senão 
 escreva("valido")
