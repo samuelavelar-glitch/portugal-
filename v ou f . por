@@ -1,0 +1,23 @@
+programa {
+ 
+ funcao eh_par(inteiro numero){
+           
+          se(numero % 2 == 0){
+                escreva("\npar e verdadeiro:")
+          
+             }
+             senao
+             {
+                escreva("\nimpar e falso:")
+             }  
+ }
+   
+funcao inicio() 
+  
+  {
+          inteiro numero_digitado
+                escreva("digite um numero:")
+                   leia(numero_digitado)
+                eh_par(numero_digitado)
+  }
+}
