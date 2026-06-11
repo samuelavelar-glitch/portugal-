@@ -1,0 +1,115 @@
+programa
+{
+	// FUNÇÕES
+
+	funcao inteiro somar(inteiro a, inteiro b)
+	{
+		retorne a + b
+	}
+
+	funcao logico verificar(inteiro n)
+	{
+		se(n > 0)
+		{
+			retorne verdadeiro
+		}
+		senao
+		{
+			retorne falso
+		}
+	}
+
+	// PROCEDIMENTOS
+
+	funcao mostrarMensagem()
+	{
+		escreva("Executando procedimento\n")
+	}
+
+	funcao inicio()
+	{
+		// VARIÁVEIS
+		inteiro n, i
+		real nota
+		cadeia nome
+		caracter letra
+		logico resposta
+
+		// VETOR
+		inteiro vetor[10]
+
+		// MATRIZ
+		inteiro matriz[3][3]
+
+		// LEITURA
+		escreva("Digite um numero: ")
+		leia(n)
+
+		// SE / SENAO
+		se(n > 0)
+		{
+			escreva("Positivo\n")
+		}
+		senao
+		{
+			escreva("Nao positivo\n")
+		}
+
+		// PARA
+		para(i = 0; i < 10; i++)
+		{
+			vetor[i] = i
+		}
+
+		// ENQUANTO
+		i = 0
+
+		enquanto(i < 5)
+		{
+			escreva(i, "\n")
+			i++
+		}
+
+		// ESCOLHA
+		escolha(n)
+		{
+			caso 1:
+				escreva("Opcao 1\n")
+				pare
+
+			caso 2:
+				escreva("Opcao 2\n")
+				pare
+
+			caso contrario:
+				escreva("Outra opcao\n")
+		}
+
+		// CHAMADA DE FUNÇÃO
+		escreva("Soma = ", somar(5, 3), "\n")
+
+		// CHAMADA DE PROCEDIMENTO
+		mostrarMensagem()
+
+		// RETORNO LÓGICO
+		resposta = verificar(n)
+
+		se(resposta)
+		{
+			escreva("Verdadeiro\n")
+		}
+		senao
+		{
+			escreva("Falso\n")
+		}
+
+		// MATRIZ
+		para(i = 0; i < 3; i++)
+		{
+			para(inteiro j = 0; j < 3; j++)
+			{
+				matriz[i][j] = i + j
+			}
+		}
+	}
+}
