@@ -1,0 +1,97 @@
+programa
+{
+	funcao real calcularMedia(real notas[], inteiro tam)
+	{
+		real soma = 0
+
+		para(inteiro i = 0; i < tam; i++)
+		{
+			soma = soma + notas[i]
+		}
+
+		retorne soma / tam
+	}
+
+	funcao real maiorNota(real notas[], inteiro tam)
+	{
+		real maior = notas[0]
+
+		para(inteiro i = 1; i < tam; i++)
+		{
+			se(notas[i] > maior)
+			{
+				maior = notas[i]
+			}
+		}
+
+		retorne maior
+	}
+
+	funcao logico aprovado(real media)
+	{
+		retorne media >= 60
+	}
+
+	funcao inicio()
+	{
+		real notas[5]
+		real matriz[1][5]
+		real media
+		inteiro opcao
+
+		escreva("Digite 5 notas:\n")
+
+		para(inteiro i = 0; i < 5; i++)
+		{
+			escreva("Nota ", i+1, ": ")
+			leia(notas[i])
+
+			matriz[0][i] = notas[i]
+		}
+
+		media = calcularMedia(notas, 5)
+
+		escreva("\n===== MENU =====\n")
+		escreva("1 - Mostrar média\n")
+		escreva("2 - Mostrar maior nota\n")
+		escreva("3 - Mostrar situação\n")
+		escreva("Escolha: ")
+		leia(opcao)
+
+		escolha(opcao)
+		{
+			caso 1:
+				escreva("Média = ", media)
+				pare
+
+			caso 2:
+				escreva("Maior nota = ", maiorNota(notas,5))
+				pare
+
+			caso 3:
+				se(aprovado(media))
+				{
+					escreva("Aluno APROVADO")
+				}
+				senao
+				{
+					escreva("Aluno REPROVADO")
+				}
+				pare
+
+			caso contrario:
+				escreva("Opção inválida")
+		}
+
+		escreva("\n\nMatriz das notas:\n")
+
+		para(inteiro i = 0; i < 1; i++)
+		{
+			para(inteiro j = 0; j < 5; j++)
+			{
+				escreva(matriz[i][j], " ")
+			}
+			escreva("\n")
+		}
+	}
+}
