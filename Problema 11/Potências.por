@@ -2,7 +2,7 @@ programa
 {
 	funcao inteiro potencia(inteiro base, inteiro expoente)
 	{
-		inteiro resultado = 1
+		inteiro resultado = 0
 
 		para(inteiro i = 1; i <= expoente; i++)
 		{
