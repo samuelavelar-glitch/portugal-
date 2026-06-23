@@ -32,10 +32,10 @@ inclua biblioteca Util --> u
 	
 	funcao inicio()
 {
-	  	 	 inteiro resultado
-			 resultado = mostre_matriz()
+	  	 inteiro resultado
+		 resultado = mostre_matriz()
 		
-			escreva("maior da matriz e\n", resultado)
+		escreva("maior da matriz e\n", resultado)
 			
 	}
 }
