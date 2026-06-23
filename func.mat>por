@@ -1,0 +1,41 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+
+
+	funcao inteiro mostre_matriz()
+	{
+		  inteiro mat[3][3] , i=0 , j=0 , maior=0
+		     maior = 0
+		  	para (i=0 ; i<3 ;i++)
+		  	{
+		 	
+			para (j=0 ; j<3 ;j++)
+			{
+			 mat[i][j] = u.sorteia(1,100)
+			
+		      escreva(mat[i][j], "\t")	 
+		  	
+		  	 
+		  	   se(mat[i][j] >= maior)
+						{
+    				maior = mat[i][j]
+				}	
+			
+			}
+		  	escreva("\n")
+		}
+		   
+	    	retorne maior
+	}          
+	
+	funcao inicio()
+{
+	  	 	 inteiro resultado
+			 resultado = mostre_matriz()
+		
+			escreva("maior da matriz e\n", resultado)
+			
+	}
+}
