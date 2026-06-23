@@ -14,10 +14,10 @@ programa
 
 	funcao inicio()
 	{
-		inteiro base, expoente
+		inteiro base, expoentes
 
-		leia(base, expoente)
+		leia(base, expoentes)
 
-		escreva(potencia(base, expoente))
+		escreva(potencia(base, expoentes))
 	}
 }
