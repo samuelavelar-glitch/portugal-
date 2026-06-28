@@ -39,15 +39,15 @@ programa
 		 	escreva("\nMaior = ", maior)
 			escreva("\nMenor = ", menor)
 		     escreva("\n")
-		retorne maior-menor
+		 retorne maior-menor
 	}          
 	
 	funcao inicio()
 	{
-	  	 	 inteiro resultado
-			 resultado = mostre_matriz()
+	  	  inteiro resultado
+		 resultado = mostre_matriz()
 		
-			escreva("amplitude da matriz e\n", resultado)
+		escreva("amplitude da matriz e\n", resultado)
 			
 	}
 }
