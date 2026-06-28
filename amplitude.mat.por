@@ -38,7 +38,7 @@ programa
 		 }
 		 	escreva("\nMaior = ", maior)
 			escreva("\nMenor = ", menor)
-		     escreva("\n")
+		    escreva("\n")
 		 retorne maior-menor
 	}          
 	
