@@ -1,0 +1,21 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+
+	funcao inicio()
+	{
+	 	inteiro	mat[7] [7] , i , j
+
+		  
+		    para(i=0 ; i<7; i++)
+		    {
+		  	para(j=0 ; j<7; j++){
+			 mat[i] [j]=u.sorteia(0, 100)
+		 	escreva(mat[i][j],"\t")
+			   
+		    }
+			escreva("\n")
+		}
+	 }
+}
