@@ -1,0 +1,41 @@
+programa
+{
+		inclua biblioteca Util --> u
+	
+funcao girar_dado( inteiro v, inteiro limite, inteiro  d[] ){
+ 			inteiro i  , resultado_dado
+	
+				para(i=0 ; i<v ; i++){
+				   d[i] = 0
+				  resultado_dado =u.sorteia(1,limite)
+				 escreva("\nface = " , resultado_dado)
+				  d[resultado_dado - 1]++
+		
+			}
+				escreva("\n")
+	}
+	
+	funcao imprime_dados(inteiro dados[] , inteiro limite ){
+			inteiro i 
+			    para(i=0 ; i<limite ; i++){
+			    escreva("\n face = ", i+1, ":", dados[i])		 
+	
+			     }
+				escreva("\n")
+	}
+	
+	funcao inicio()
+	{
+		 inteiro	dado[100] , vezes , limite
+				
+				escreva("quantas vezes vc quer girar o dado\n")
+				leia(vezes)
+				
+				escreva("quantas faces 6 ou 4\n")
+				leia(limite)
+				
+				girar_dado(vezes , limite  , dado)
+				imprime_dados( dado , limite)
+		}
+		
+}
