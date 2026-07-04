@@ -14,10 +14,10 @@ funcao inteiro vet_1()
        
 funcao início (){
 
+
+inteiro vvet [12] i , j
+
 }
-inteiro vvet [12]
-
-
 
 
 
