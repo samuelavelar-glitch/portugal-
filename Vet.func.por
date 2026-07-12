@@ -7,7 +7,7 @@ funcao  vet_1(){
         para( i=0; i < 14 ;i++){
       	   vvet[i] = i+2
      	 para( j=0 ; j < 14; j++){
-     	   vvet[j] = j + 2
+     	   vvet[j] = j + 21
       	 	 numero= vvet[i] + vvet[j]
        	  	escreva(numero,"\t")
        }	
